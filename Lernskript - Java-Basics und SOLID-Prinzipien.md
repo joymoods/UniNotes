@@ -168,3 +168,115 @@ public class bmiChat {
 
 }
 ```
+
+### Boolean
+```java
+import java.util.Scanner;
+
+  
+
+public class bool {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Sind Sie 18?");
+
+        System.out.println("1. Ja");
+
+        System.out.println("2. Nein");
+
+        int Alter = scanner.nextInt();
+
+  
+
+        scanner.close();
+
+        boolean ü18;
+
+  
+
+        switch (Alter) {
+
+            case 1:
+
+                ü18 = true;
+
+                break;
+
+            case 2:
+
+                ü18 = false;
+
+                break;
+
+            default:
+
+                System.out.println("Eingabe ungültig! Bitte versuchen Sie es erneut");
+
+                return;
+
+        }
+
+  
+
+        if (ü18) {
+
+            ü18 = true;
+
+            System.out.println("Glückwunsch! Du bist drin ;)");
+
+        } else {
+
+            ü18 = false;
+
+            System.out.println("Du kommst net rin!");
+
+        }
+
+    }
+
+}
+```
+### Debugübung
+Mit Fehler:
+```java
+public class DebuggingÜbung {
+    public static void main(String[] args) {
+        int zahl1 = 5;
+        int zahl2 = 0;
+        
+        int ergebnis = divide(zahl1, zahl2);
+        
+        System.out.println("Das Ergebnis der Division ist: " + ergebnis);
+    }
+    
+    public static int divide(int a, int b) {
+        int result = a / b;
+        return result;
+    }
+}
+```
+
+Gelöst:
+```java
+public class DebuggingÜbung {
+    public static void main(String[] args) {
+        double zahl1 = 5;
+        double zahl2 = 2;
+        double ergebnis = divide(zahl1, zahl2);
+        System.out.println("Das Ergebnis der Division ist: " + ergebnis);
+    }
+    public static double divide(double zahl1, double zahl2) {
+        double result = zahl1 / zahl2;
+        return result;
+    }
+}
+```
+### For / While Schleife
+
+```java
+
+```
+
