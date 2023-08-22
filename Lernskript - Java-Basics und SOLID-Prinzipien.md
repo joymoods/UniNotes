@@ -1,3 +1,32 @@
+- [[#Teil 1: Java-Basics|Teil 1: Java-Basics]]
+	- [[#Teil 1: Java-Basics#1.1 Einführung in Java|1.1 Einführung in Java]]
+	- [[#Teil 1: Java-Basics#1.2 Datentypen und Variablen|1.2 Datentypen und Variablen]]
+	- [[#Teil 1: Java-Basics#1.3 Kontrollstrukturen|1.3 Kontrollstrukturen]]
+	- [[#Teil 1: Java-Basics#1.4 Arrays|1.4 Arrays]]
+	- [[#Teil 1: Java-Basics#1.5 Funktionen (Methoden)|1.5 Funktionen (Methoden)]]
+	- [[#Teil 1: Java-Basics#1.6 Objektorientierte Programmierung (OOP)|1.6 Objektorientierte Programmierung (OOP)]]
+	- [[#Teil 1: Java-Basics#1.7 Vererbung und Polymorphismus|1.7 Vererbung und Polymorphismus]]
+		- [[#1.7 Vererbung und Polymorphismus#Beispiel|Beispiel]]
+- [[#Teil 2: SOLID-Prinzipien|Teil 2: SOLID-Prinzipien]]
+	- [[#Teil 2: SOLID-Prinzipien#2.1 SOLID-Grundlagen|2.1 SOLID-Grundlagen]]
+	- [[#Teil 2: SOLID-Prinzipien#2.2 Anwendung der SOLID-Prinzipien|2.2 Anwendung der SOLID-Prinzipien]]
+	- [[#Teil 2: SOLID-Prinzipien#2.3 S.O.L.I.D.|2.3 S.O.L.I.D.]]
+		- [[#2.3 S.O.L.I.D.#S - SRP (Single Responsibility Principle)|S - SRP (Single Responsibility Principle)]]
+		- [[#2.3 S.O.L.I.D.#O - OCP (Open-Closed Principle)|O - OCP (Open-Closed Principle)]]
+		- [[#2.3 S.O.L.I.D.#L - LSP (Liskov Substitution Principle)|L - LSP (Liskov Substitution Principle)]]
+		- [[#2.3 S.O.L.I.D.#I - ISP (Interface Segregation Principle)|I - ISP (Interface Segregation Principle)]]
+		- [[#2.3 S.O.L.I.D.#D - DIP (Dependency Inversion Principle)|D - DIP (Dependency Inversion Principle)]]
+- [[#Teil 3: Übungen und Projekte|Teil 3: Übungen und Projekte]]
+	- [[#Teil 3: Übungen und Projekte#3.1 Übungen zu Java-Basics|3.1 Übungen zu Java-Basics]]
+	- [[#Teil 3: Übungen und Projekte#3.2 Mini-Projekt: Online-Shop|3.2 Mini-Projekt: Online-Shop]]
+- [[#Teil 4: Beispiele|Teil 4: Beispiele]]
+	- [[#Teil 4: Beispiele#BMI Rechner|BMI Rechner]]
+	- [[#Teil 4: Beispiele#Boolean|Boolean]]
+	- [[#Teil 4: Beispiele#Debugübung|Debugübung]]
+	- [[#Teil 4: Beispiele#For / While Schleife|For / While Schleife]]
+		- [[#For / While Schleife#While|While]]
+		- [[#For / While Schleife#For|For]]
+
 ## Teil 1: Java-Basics
 
 ### 1.1 Einführung in Java
@@ -38,6 +67,71 @@
 
 - **Vererbung**: Erstellen von Subklassen und Ableiten von Eigenschaften und Methoden.
 - **Polymorphismus**: Verwendung von Schnittstellen und abstrakten Klassen.
+#### Beispiel
+```java
+// Die Elternklasse (Superklasse)
+class Fahrzeug {
+    String marke;
+    int baujahr;
+
+    public Fahrzeug(String marke, int baujahr) {
+        this.marke = marke;
+        this.baujahr = baujahr;
+    }
+
+    public void starten() {
+        System.out.println("Das Fahrzeug startet.");
+    }
+
+    public void stoppen() {
+        System.out.println("Das Fahrzeug stoppt.");
+    }
+}
+
+// Die Kindklasse (Unterklasse) erbt von der Superklasse Fahrzeug
+class Auto extends Fahrzeug {
+    int anzahlTueren;
+
+    public Auto(String marke, int baujahr, int anzahlTueren) {
+        super(marke, baujahr); // Aufruf des Konstruktors der Superklasse
+        this.anzahlTueren = anzahlTueren;
+    }
+
+    // Überschreiben der starten-Methode aus der Superklasse
+    @Override
+    public void starten() {
+        System.out.println("Das Auto mit " + anzahlTueren + " Türen startet.");
+    }
+
+    public void hupen() {
+        System.out.println("Das Auto hupt.");
+    }
+}
+
+public class VererbungUndPolymorphismus {
+    public static void main(String[] args) {
+        // Erzeugen eines Fahrzeugs (Objekts der Superklasse)
+        Fahrzeug fahrzeug = new Fahrzeug("Fahrzeug A", 2020);
+        fahrzeug.starten();
+        fahrzeug.stoppen();
+
+        // Erzeugen eines Autos (Objekts der Kindklasse)
+        Auto auto = new Auto("Auto X", 2022, 4);
+        auto.starten();
+        auto.stoppen();
+        auto.hupen();
+
+        // Polymorphismus: Ein Auto-Objekt kann in einer Fahrzeug-Variablen gespeichert werden
+        Fahrzeug autoAlsFahrzeug = new Auto("Auto Y", 2021, 2);
+        autoAlsFahrzeug.starten();
+        autoAlsFahrzeug.stoppen();
+
+        // Beachten Sie, dass die starten-Methode je nach tatsächlichem Objekt aufgerufen wird
+        // und die Methode der jeweiligen Klasse verwendet wird.
+    }
+}
+
+```
 
 ## Teil 2: SOLID-Prinzipien
 
@@ -57,6 +151,213 @@
 - **ISP in Java**: Aufteilung von großen Schnittstellen in kleinere, spezifischere Schnittstellen.
 - **DIP in Java**: Verwendung von Abhängigkeitsinjektion für lose Kopplung.
 
+### 2.3 S.O.L.I.D.
+
+#### S - SRP (Single Responsibility Principle)
+
+Das SRP besagt, dass eine Klasse nur eine Verantwortung haben sollte. In diesem Beispiel haben wir zwei Klassen, jede mit einer separaten Verantwortung.
+```java
+// Verletzung des SRP: Eine Klasse mit zwei Verantwortlichkeiten
+class Task {
+    public void createTask() {
+        // Erstellen einer Aufgabe in der Datenbank
+    }
+    
+    public void printTaskReport() {
+        // Drucken eines Aufgabenberichts
+    }
+}
+```
+
+Verbesserte Version:
+```java
+// Anwendung des SRP: Aufteilung der Verantwortlichkeiten auf zwei Klassen
+class TaskCreator {
+    public void createTask() {
+        // Erstellen einer Aufgabe in der Datenbank
+    }
+}
+
+class TaskReporter {
+    public void printTaskReport() {
+        // Drucken eines Aufgabenberichts
+    }
+}
+```
+
+#### O - OCP (Open-Closed Principle)
+
+Das OCP besagt, dass Klassen offen für Erweiterungen, aber geschlossen für Änderungen sein sollten. Hier ist ein Beispiel, das das OCP verwendet:
+```java
+// Verletzung des OCP: Änderungen an der Klasse erforderlich, um einen neuen Task-Typ hinzuzufügen
+class Task {
+    public void performTask() {
+        // Führe eine allgemeine Aufgabe aus
+    }
+}
+
+class NewTask extends Task {
+    public void performTask() {
+        // Führe eine spezielle Aufgabe aus
+    }
+}
+```
+
+Verbesserte Version:
+```java
+// Anwendung des OCP: Verwendung von abstrakten Klassen und Erweiterung für neue Task-Typen
+abstract class Task {
+    public abstract void performTask();
+}
+
+class GeneralTask extends Task {
+    public void performTask() {
+        // Führe eine allgemeine Aufgabe aus
+    }
+}
+
+class NewTask extends Task {
+    public void performTask() {
+        // Führe eine spezielle Aufgabe aus
+    }
+}
+```
+
+#### L - LSP (Liskov Substitution Principle)
+
+Das LSP besagt, dass Subtypen sich nahtlos durch ihre Basistypen ersetzen lassen sollten. Hier ist ein einfaches Beispiel:
+```java
+// Verletzung des LSP: Subtyp bricht die Verträge des Basistyps
+class Bird {
+    public void fly() {
+        // Fliege
+    }
+}
+
+class Ostrich extends Bird {
+    public void fly() {
+        // Ein Strauß kann nicht fliegen, aber diese Methode ist geerbt
+    }
+}
+```
+
+Verbesserte Version:
+```java
+// Anwendung des LSP: Subtyp hält sich an die Verträge des Basistyps
+abstract class Bird {
+    public abstract void move();
+}
+
+class Sparrow extends Bird {
+    public void move() {
+        // Fliege
+    }
+}
+
+class Ostrich extends Bird {
+    public void move() {
+        // Laufe, aber nicht fliegen
+    }
+}
+```
+
+#### I - ISP (Interface Segregation Principle)
+
+Das ISP besagt, dass Clients nicht von Schnittstellen abhängig sein sollten, die sie nicht nutzen. Hier ist ein Beispiel:
+```java
+// Verletzung des ISP: Eine umfangreiche Schnittstelle, die nicht alle Clients benötigen
+interface Worker {
+    void work();
+    void eat();
+    void sleep();
+}
+
+class Robot implements Worker {
+    public void work() {
+        // Arbeite
+    }
+
+    public void eat() {
+        // Essen (nicht relevant für einen Roboter)
+    }
+
+    public void sleep() {
+        // Schlafen (nicht relevant für einen Roboter)
+    }
+}
+```
+
+Verbessert Version:
+```java
+// Anwendung des ISP: Aufteilung der Schnittstellen für verschiedene Clients
+interface Workable {
+    void work();
+}
+
+interface Eatable {
+    void eat();
+}
+
+interface Sleepable {
+    void sleep();
+}
+
+class Robot implements Workable {
+    public void work() {
+        // Arbeite
+    }
+}
+```
+
+#### D - DIP (Dependency Inversion Principle)
+
+Das DIP besagt, dass Abhängigkeiten von abstrakten Klassen und Schnittstellen abgeleitet werden sollten, nicht von konkreten Klassen. Hier ist ein Beispiel:
+```java
+// Verletzung des DIP: Hohe Ebene hängt von niedriger Ebene ab
+class LightBulb {
+    public void turnOn() {
+        // Schalte die Glühbirne ein
+    }
+}
+
+class Switch {
+    private LightBulb bulb;
+
+    public Switch() {
+        this.bulb = new LightBulb();
+    }
+
+    public void operate() {
+        bulb.turnOn();
+    }
+}
+```
+
+Verbesserte Version:
+```java
+// Anwendung des DIP: Abhängigkeit von abstrakten Klassen/Schnittstellen
+interface Switchable {
+    void turnOn();
+}
+
+class LightBulb implements Switchable {
+    public void turnOn() {
+        // Schalte die Glühbirne ein
+    }
+}
+
+class Switch {
+    private Switchable device;
+
+    public Switch(Switchable device) {
+        this.device = device;
+    }
+
+    public void operate() {
+        device.turnOn();
+    }
+}
+```
 ## Teil 3: Übungen und Projekte
 
 ### 3.1 Übungen zu Java-Basics
@@ -91,7 +392,7 @@
     
 - Implementieren Sie eine Bestellfunktion, um Produkte zu kaufen und Bestellungen zu verfolgen.
 
-## Teil 4 Beispiele
+## Teil 4: Beispiele
 ### BMI Rechner
 ```java
 import java.util.Scanner;
@@ -276,7 +577,46 @@ public class DebuggingÜbung {
 ```
 ### For / While Schleife
 
-```java
+#### While
 
+- Die `while`-Schleife wird verwendet, wenn die Anzahl der Schleifenwiederholungen im Voraus nicht bekannt ist oder wenn die Schleife von einer Bedingung abhängt.
+- Sie hat nur eine Bedingung in der Kopfzeile, und solange diese Bedingung wahr (true) ist, wird die Schleife weiterhin wiederholt.
+- Die Initialisierung und Aktualisierung müssen manuell im Schleifenkörper durchgeführt werden.
+- `while`-Schleifen eignen sich gut, wenn du eine Schleife ausführen möchtest, solange eine bestimmte Bedingung erfüllt ist.
+```java
+public class whileschleife {
+    public static void main(String[] args) {
+        int i = 0;
+            while (i < 5) {
+                System.out.println("Hallo, die Schleife ist an.");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                i++;
+            }  
+    }
+}
 ```
 
+#### For
+
+- Die `for`-Schleife wird normalerweise verwendet, wenn die Anzahl der Schleifenwiederholungen im Voraus bekannt ist oder wenn eine spezifische Anzahl von Iterationen durchgeführt werden soll.
+- Sie hat eine Initialisierung, eine Bedingung und eine Aktualisierung in der Schleifenkopfzeile, die die Schleifensteuerung regeln. Zum Beispiel: `for (int i = 0; i < 5; i++)`.
+- Die Initialisierung wird nur einmal am Anfang ausgeführt, die Bedingung wird vor jeder Iteration überprüft, und die Aktualisierung wird nach jeder Iteration durchgeführt.
+- Ein Vorteil der `for`-Schleife ist, dass die Schleifenkontrollelemente (Initialisierung, Bedingung, Aktualisierung) an einer Stelle klar definiert sind.
+```java
+public class forschleife {
+    public static void main(String[] args) {
+            for (int i = 0; i < 5; i++) {
+                System.out.println("Hallo, die Schleife ist an.");
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }  
+    }
+}
+```

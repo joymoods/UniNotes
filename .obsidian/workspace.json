@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d691ec9b336122d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lernskript - Java-Basics und SOLID-Prinzipien.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5c4306939f0d932f",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
