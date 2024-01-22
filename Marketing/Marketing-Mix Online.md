@@ -17,7 +17,7 @@
 
 - wenn dann nur vertrauenswürdige Influencer die Content in die Richtung machen
 
-# SEO (Suchmaschinenoptimierung)
+# SEO/ASO (Suchmaschinenoptimierung/App Store-Optimierung)
 
 ✅
 
@@ -30,5 +30,12 @@
 # Email-Marketing
 
 ## Newsletter 
+
+❓
+
+# Community
+
+## Foren
+
 ❓
 
