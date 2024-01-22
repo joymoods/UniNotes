@@ -154,7 +154,9 @@
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "cmdr:Table of Contents: Create table of contents": false
+      "cmdr:Table of Contents: Create table of contents": false,
+      "cmdr:Obsidian Git: Commit all changes": false,
+      "cmdr:Obsidian Git: Push": false
     }
   },
   "active": "ed96d85b64ddd5f9",

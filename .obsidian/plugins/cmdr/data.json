@@ -10,6 +10,24 @@
       "icon": "book-open",
       "name": "Table of Contents: Create table of contents",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-git:push2",
+      "icon": "arrow-big-right",
+      "name": "Obsidian Git: Push",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:commit",
+      "icon": "git-commit",
+      "name": "Obsidian Git: Commit all changes",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "git-pull-request",
+      "name": "Obsidian Git: Pull",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],
