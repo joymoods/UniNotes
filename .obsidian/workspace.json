@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "cdfd70412017eb15",
@@ -160,9 +159,9 @@
   },
   "active": "ed96d85b64ddd5f9",
   "lastOpenFiles": [
-    "KLR/Hausaufgaben 16.11.2023.md",
-    "Marketing/Marketing-Mix Online.md",
     "OOP/Lernskript - Java-Basics und SOLID-Prinzipien.md",
+    "Marketing/Marketing-Mix Online.md",
+    "KLR/Hausaufgaben 16.11.2023.md",
     "Marketing",
     "2023-11-06.md",
     "Unbenannt.canvas",
