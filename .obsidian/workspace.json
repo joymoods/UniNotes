@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed96d85b64ddd5f9",
+            "id": "847fbaa8f487859a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,10 +156,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "cmdr:Table of Contents: Create table of contents": false,
       "cmdr:Obsidian Git: Commit all changes": false,
-      "cmdr:Obsidian Git: Push": false
+      "cmdr:Obsidian Git: Push": false,
+      "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "ed96d85b64ddd5f9",
+  "active": "610a0633d860e0a9",
   "lastOpenFiles": [
     "OOP/Lernskript - Java-Basics und SOLID-Prinzipien.md",
     "Marketing/Marketing-Mix Online.md",

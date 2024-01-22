@@ -46,9 +46,10 @@
 ### Newsletter 
 
 ❓
+(✅für Ärzte)
 
 ## Community
 
 ### Foren
 
-❓
+❓ (Foren für Alleinerziehende)
