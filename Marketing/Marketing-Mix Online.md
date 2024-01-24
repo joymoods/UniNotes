@@ -1,27 +1,13 @@
-- [[#Social Media|Social Media]]
-	- [[#Social Media#Instagram|Instagram]]
-	- [[#Social Media#Twitter|Twitter]]
-	- [[#Social Media#LinkedIn|LinkedIn]]
-	- [[#Social Media#YouTube|YouTube]]
-- [[#Influencer|Influencer]]
-- [[#SEO/ASO (Suchmaschinenoptimierung/App Store-Optimierung)|SEO/ASO (Suchmaschinenoptimierung/App Store-Optimierung)]]
-- [[#Online-Werbung|Online-Werbung]]
-	- [[#Online-Werbung#Google Ads|Google Ads]]
-- [[#Email-Marketing|Email-Marketing]]
-	- [[#Email-Marketing#Newsletter|Newsletter]]
-- [[#Community|Community]]
-	- [[#Community#Foren|Foren]]
-- [[#Die 4 P's|Die 4 P's]]
-	- [[#Die 4 P's#Produktpolitik (Online):|Produktpolitik (Online):]]
-	- [[#Die 4 P's#Preispolitik (Online):|Preispolitik (Online):]]
-	- [[#Die 4 P's#Distributionspolitik (Online):|Distributionspolitik (Online):]]
-	- [[#Die 4 P's#Kommunikationspolitik (Online):|Kommunikationspolitik (Online):]]
 
 ## Social Media
 
 ### Instagram
 
 - man könnte per Keylock-Prinzip einen "hinter den Kulissen" machen
+- Promotions kaufen
+### TikTok
+
+- Promotions kaufen
 ### Twitter
 
 - Twitter ist keine Plattform um eine Mental Health App zu promoten
@@ -55,6 +41,7 @@
 
 ## Community
 
+### Live-Demos
 ### Foren
 
 ❓ (Foren für Alleinerziehende)
@@ -74,18 +61,10 @@
     - Biete einen kostenlosen Testzeitraum an, um Nutzer die Möglichkeit zu geben, die App unverbindlich zu erleben.
     - Kommuniziere klar die Vorteile, die während des Testzeitraums genutzt werden können.
 
-### Preispolitik (Online):
+### Preispolitik (Online)
 
-1. **Abonnementmodelle:**
-    
-    - Setze klare Preise für verschiedene Abonnementmodelle fest.
-    - Berücksichtige monatliche, jährliche und lebenslange Optionen.
-    - Begründe die Preise durch die bereitgestellten Funktionen und den Wert für die Nutzer.
-2. **Angebote und Rabatte:**
-    
-    - Erwäge zeitlich begrenzte Angebote oder Rabatte für neue Nutzer.
-    - Führe gelegentlich Sonderaktionen durch, um die App zu promoten.
-    - Nutze personalisierte Rabatte, um die Kundenbindung zu stärken.
+1. Privatpatienten möglich
+	1. Beamtinnen Privatversichert
 
 ### Distributionspolitik (Online):
 
