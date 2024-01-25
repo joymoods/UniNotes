@@ -61,7 +61,7 @@
 - Twitter ist keine Plattform um eine Mental Health App zu promoten
 #### LinkedIn
 
-- ist ein Muss
+- Vernetzung zu Therapeuten
 #### YouTube
 
 - Tutorials wie gewisse Funktionen funktionieren
