@@ -24,10 +24,9 @@
 
 ## Produkt
 1. **App-Funktionen:**
-    
+
+	- App-Funktion rausbringen damit wir in der Reifephase bleiben und nicht in die Abnahme rutschen
     - Beschreibe detailliert die Funktionen der Mental-Health-App.
-    - Hebe einzigartige Features hervor, die sie von anderen unterscheiden.
-    - Betone die Benutzerfreundlichkeit und den Mehrwert für die mentale Gesundheit.
 
 ## Preis
 
@@ -37,14 +36,15 @@
 ## Preis/Destru Mischung
 2. **Online-Vertrieb:**
     
-    - Biete die Möglichkeit zum direkten Online-Kauf über die offizielle Website der App an.
-    - Nutze verschiedene Online-Plattformen, um die App zu vermarkten und zu verkaufen.
+    - die Möglichkeit zum direkten Online-Kauf über die offizielle Website der App anbieten.
 ## Destrubition
 1. **App-Stores:**
     
-    - Stelle sicher, dass die App in den relevanten App-Stores (z.B., Apple App Store, Google Play Store) prominent platziert ist.
     - Achte auf eine optimale App Store-Optimierung (ASO) für erhöhte Sichtbarkeit.
 
+2. Search-Engine-Optimization:
+
+	- Website so optimieren das sie in der Googlesuche weit oben angezeigt wird
 ## Kommunikation 
 
 ### Social Media
