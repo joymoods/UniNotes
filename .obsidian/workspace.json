@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "aec3b298ee25bb57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Datenschutz/Präsi 31.5.24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Datenschutz/Präsi 31.5.24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Datenschutz/Präsi 31.5.24.md"
               }
             }
           },
@@ -197,10 +185,10 @@
       "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "aec3b298ee25bb57",
+  "active": "a295118c09dbd009",
   "lastOpenFiles": [
-    "Datenschutz/Präsi 31.5.24.md",
     "conflict-files-obsidian-git.md",
+    "Datenschutz/Präsi 31.5.24.md",
     "Marketing/Marketingpräsi.md",
     "Marketing/Marketing-Mix Online.md",
     "Datenschutz",
