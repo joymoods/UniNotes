@@ -13,3 +13,7 @@ Betriebsergebnis = PG A + PG B - Unternehmensfixe Kosten
 
 Absoluter Stückdeckungsbeitrag = Deckungsspanne (Nettoverkaufspreis - var. Stückkosten)
 relativer Stückdeckungsbeitrag = Absoluter Stückdeckungsbeitrag / Engpasszeit
+
+## Kalkulatorische Kosten
+
+![[Pasted image 20240611075732.png]]
