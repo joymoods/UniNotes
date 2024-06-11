@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "847fbaa8f487859a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Marketing/Marketing-Mix Online.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "690ef34614c672e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a295118c09dbd009",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md",
+                "file": "KLR/Nachprüfung 11.6.24.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 250.5
   },
   "right": {
     "id": "cdfd70412017eb15",
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md",
+                "file": "KLR/Nachprüfung 11.6.24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md",
+                "file": "KLR/Nachprüfung 11.6.24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md"
+                "file": "KLR/Nachprüfung 11.6.24.md"
               }
             }
           },
@@ -185,10 +160,25 @@
       "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "a295118c09dbd009",
+  "active": "0af648fdff4b8a0b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "KLR/Pasted image 20240611044226.png",
+    "Fallstudie Software/Code Gutachter.md",
+    "KLR/Nachprüfung 11.6.24.md",
+    "Fallstudie Software/4C0B3489-D2DD-4486-921A-818688249EA7.png",
     "Datenschutz/Präsi 31.5.24.md",
+    "Fallstudie Software",
+    "IT-Consulting/Hausarbeit.md",
+    "IT-Consulting/Portfolio.md",
+    "IT-Consulting/Screenshot 2024-06-06 094005.png",
+    "Game Idee/Ideensammlung.md",
+    "IT-Consulting",
+    "Game Idee/EscapeGame Rätselspiel.md",
+    "Game Idee/SurvialGame.md",
+    "Game Idee/Shooter.md",
+    "Game Idee/Rennspiel.md",
+    "Game Idee",
+    "conflict-files-obsidian-git.md",
     "Marketing/Marketingpräsi.md",
     "Marketing/Marketing-Mix Online.md",
     "Datenschutz",

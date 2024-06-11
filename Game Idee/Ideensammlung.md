@@ -1,0 +1,4 @@
+Shooter
+Rennspiel
+Survialgame
+EscapeGame/Rätselspiel
