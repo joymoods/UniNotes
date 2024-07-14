@@ -11,8 +11,12 @@
             "id": "4cb3c4eb4e2de201",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Datenschutz/Präsi 31.5.24.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game Idee/Ideensammlung.md",
+                "file": "Datenschutz/Präsi 31.5.24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game Idee/Ideensammlung.md",
+                "file": "Datenschutz/Präsi 31.5.24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Idee/Ideensammlung.md"
+                "file": "Datenschutz/Präsi 31.5.24.md"
               }
             }
           },
@@ -156,7 +160,7 @@
       "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "0af648fdff4b8a0b",
+  "active": "4cb3c4eb4e2de201",
   "lastOpenFiles": [
     "KLR/Nachprüfung 11.6.24.md",
     "Game Idee/Ideensammlung.md",
