@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7fa27e8888711e26",
+        "id": "0b3dd210cc8a8f31",
         "type": "tabs",
         "children": [
           {
-            "id": "690ef34614c672e8",
+            "id": "4cb3c4eb4e2de201",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KLR/Nachprüfung 11.6.24.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KLR/Nachprüfung 11.6.24.md",
+                "file": "Game Idee/Ideensammlung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KLR/Nachprüfung 11.6.24.md",
+                "file": "Game Idee/Ideensammlung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KLR/Nachprüfung 11.6.24.md"
+                "file": "Game Idee/Ideensammlung.md"
               }
             }
           },
@@ -160,14 +156,14 @@
       "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "690ef34614c672e8",
+  "active": "0af648fdff4b8a0b",
   "lastOpenFiles": [
-    "KLR/Pasted image 20240611075732.png",
     "KLR/Nachprüfung 11.6.24.md",
-    "Game Idee/Shooter.md",
-    "Game Idee/Rennspiel.md",
     "Game Idee/Ideensammlung.md",
     "Game Idee/EscapeGame Rätselspiel.md",
+    "KLR/Pasted image 20240611075732.png",
+    "Game Idee/Shooter.md",
+    "Game Idee/Rennspiel.md",
     "Game Idee/SurvialGame.md",
     "KLR/Pasted image 20240611044226.png",
     "Fallstudie Software/Code Gutachter.md",
