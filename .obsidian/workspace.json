@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0b3dd210cc8a8f31",
+        "id": "402eab947c4d5760",
         "type": "tabs",
         "children": [
           {
-            "id": "4cb3c4eb4e2de201",
+            "id": "6cffa8f49266bdcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md",
+                "file": "Datenschutz/Prüfungsvorbereitung.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 413.5
   },
   "right": {
     "id": "cdfd70412017eb15",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md",
+                "file": "Datenschutz/Prüfungsvorbereitung.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md",
+                "file": "Datenschutz/Prüfungsvorbereitung.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Datenschutz/Präsi 31.5.24.md"
+                "file": "Datenschutz/Prüfungsvorbereitung.md"
               }
             }
           },
@@ -160,31 +160,41 @@
       "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "4cb3c4eb4e2de201",
+  "active": "0af648fdff4b8a0b",
   "lastOpenFiles": [
+    "Datenschutz/Pasted image 20240814080857.png",
+    "Datenschutz/Pasted image 20240814080342.png",
+    "Datenschutz/Pasted image 20240814075357.png",
+    "Datenschutz/Pasted image 20240814070605.png",
+    "Datenschutz/Pasted image 20240814070605.png.url",
+    "Datenschutz/Pasted_image_20240814070605.png.url",
+    "Datenschutz/Pasted image 20240814070548.png",
+    "Datenschutz/Pasted image 20240814070341.png",
+    "Datenschutz/Pasted image 20240814070005.png",
+    "Datenschutz/Pasted image 20240814065036.png",
+    "Datenschutz/Pasted image 20240814044121.png",
+    "Datenschutz/Prüfungsvorbereitung.md",
+    "Datenschutz/Pasted image 20240814044005.png",
+    "Datenschutz/Präsi 31.5.24.md",
+    "OOP/Lernskript - Java-Basics und SOLID-Prinzipien.md",
+    "IT-Consulting/Hausarbeit.md",
+    "IT-Consulting/Portfolio.md",
+    "Fallstudie Software/Code Gutachter.md",
+    "Fallstudie Software/4C0B3489-D2DD-4486-921A-818688249EA7.png",
+    "Marketing/Marketingpräsi.md",
+    "Marketing/Marketing-Mix Online.md",
     "KLR/Nachprüfung 11.6.24.md",
     "Game Idee/Ideensammlung.md",
     "Game Idee/EscapeGame Rätselspiel.md",
-    "KLR/Pasted image 20240611075732.png",
     "Game Idee/Shooter.md",
     "Game Idee/Rennspiel.md",
     "Game Idee/SurvialGame.md",
-    "KLR/Pasted image 20240611044226.png",
-    "Fallstudie Software/Code Gutachter.md",
-    "Fallstudie Software/4C0B3489-D2DD-4486-921A-818688249EA7.png",
-    "Datenschutz/Präsi 31.5.24.md",
     "Fallstudie Software",
-    "IT-Consulting/Hausarbeit.md",
-    "IT-Consulting/Portfolio.md",
-    "IT-Consulting/Screenshot 2024-06-06 094005.png",
     "IT-Consulting",
     "Game Idee",
     "conflict-files-obsidian-git.md",
-    "Marketing/Marketingpräsi.md",
-    "Marketing/Marketing-Mix Online.md",
     "Datenschutz",
     "2024-01-24.md",
-    "OOP/Lernskript - Java-Basics und SOLID-Prinzipien.md",
     "KLR/Hausaufgaben 16.11.2023.md",
     "Marketing",
     "2023-11-06.md",
