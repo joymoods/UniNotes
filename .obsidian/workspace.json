@@ -8,18 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6cffa8f49266bdcf",
+            "id": "1e24555c80441c10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Datenschutz/Prüfungsvorbereitung.md",
+                "file": "Big Data/06.12.24.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "06.12.24"
+            }
+          },
+          {
+            "id": "a958d26b584aba4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Big Data/HA 12.12.24.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HA 12.12.24"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datenschutz/Prüfungsvorbereitung.md",
+                "file": "Methoden der agilen ST/22.11.24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 22.11.24"
             }
           },
           {
@@ -102,10 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Datenschutz/Prüfungsvorbereitung.md",
+                "file": "Methoden der agilen ST/22.11.24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 22.11.24"
             }
           },
           {
@@ -116,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Datenschutz/Prüfungsvorbereitung.md"
-              }
+                "file": "Methoden der agilen ST/22.11.24.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 22.11.24"
             }
           },
           {
@@ -134,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -160,8 +193,16 @@
       "cmdr:Obsidian Git: Pull": false
     }
   },
-  "active": "0af648fdff4b8a0b",
+  "active": "a958d26b584aba4a",
   "lastOpenFiles": [
+    "Big Data/06.12.24.md",
+    "Big Data/HA 12.12.24.md",
+    "Methoden der agilen ST/Aufgabe 28.11.24    Uhrzeit.10.40.md",
+    "Big Data",
+    "Methoden der agilen ST/22.11.24.md",
+    "IT-Consulting/Hausarbeit.md",
+    "Methoden der agilen ST",
+    "Datenschutz/Prüfungsvorbereitung.md",
     "Datenschutz/Pasted image 20240814080857.png",
     "Datenschutz/Pasted image 20240814080342.png",
     "Datenschutz/Pasted image 20240814075357.png",
@@ -173,14 +214,11 @@
     "Datenschutz/Pasted image 20240814070005.png",
     "Datenschutz/Pasted image 20240814065036.png",
     "Datenschutz/Pasted image 20240814044121.png",
-    "Datenschutz/Prüfungsvorbereitung.md",
     "Datenschutz/Pasted image 20240814044005.png",
     "Datenschutz/Präsi 31.5.24.md",
     "OOP/Lernskript - Java-Basics und SOLID-Prinzipien.md",
-    "IT-Consulting/Hausarbeit.md",
     "IT-Consulting/Portfolio.md",
     "Fallstudie Software/Code Gutachter.md",
-    "Fallstudie Software/4C0B3489-D2DD-4486-921A-818688249EA7.png",
     "Marketing/Marketingpräsi.md",
     "Marketing/Marketing-Mix Online.md",
     "KLR/Nachprüfung 11.6.24.md",
@@ -200,8 +238,6 @@
     "2023-11-06.md",
     "Unbenannt.canvas",
     "KLR",
-    "OOP",
-    "test/terst.md",
-    "test"
+    "test/terst.md"
   ]
 }
